@@ -5,13 +5,7 @@ package Homework.HW1;
 public class Main {
     public static void main(String[] args) {
 
-        String name = "Artem";
-        int growth = 175;
-        float weight = 70.5f;
-
-        System.out.println("Name=" + name + ", Growth=" + growth + ", Weight=" + weight);
 
 
+        }
     }
-
-}
