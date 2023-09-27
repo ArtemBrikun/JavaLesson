@@ -20,6 +20,21 @@ public class Main {
         System.out.println("a = " + a);
         System.out.println("b = " + b);
 
+        int a = 5;
+        int b = 3;
+
+        System.out.println("To exchange:");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+
+        a = a * b; // a = 15, b = 3
+        b = a / b; // b = 5, a = 15
+        a = a / b; // a = 3, b = 5
+
+        System.out.println("After the exchange:");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+
 
 
         }
