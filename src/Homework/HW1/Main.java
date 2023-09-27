@@ -5,6 +5,21 @@ package Homework.HW1;
 public class Main {
     public static void main(String[] args) {
 
+        int a = 1;
+        int b = 2;
+
+        System.out.println("To exchange:");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+
+        a = a + b; // a = 3
+        b = a - b; // b = 1
+        a = a - b; // a = 2
+
+        System.out.println("After the exchange:");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+
 
 
         }
